@@ -4,7 +4,7 @@
     "bot": {
         "feishu": {
             "enabled": true,
-            "secrets": "FEISHU_KEY",
+            "secrets": "FEISHU_TOKEN",
             "key": ""
         }
     },
