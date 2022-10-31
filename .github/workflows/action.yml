@@ -22,7 +22,7 @@ jobs:
 
       - name: Push articles
         env:
-          FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
+          FEISHU_TOKEN: ${{ secrets.FEISHU_TOKEN }}
         run: python3 cvetrends.py -t day
 
       - name: Commit
